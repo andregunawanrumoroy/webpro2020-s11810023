@@ -6,11 +6,11 @@
 //Bagian 1. ubalah syntax ES5 berikut kedalam ES6
 //No.1 
 const calculateAge = (birthYear)=> {
-	return 2019 - birthYear;
+    return 2019 - birthYear;
 }
  
-function yearUntilRetirement(object){
-	const age = calculateAge(object.year);
+const yearUntilRetirement = (object) => {
+	const age = calculateAge(object.BirthYear);
 	const retirement = 60 - age;
    
 	if(retirement > 0){
@@ -19,8 +19,10 @@ function yearUntilRetirement(object){
     	console.log(`${object.firstName} is already retired.`);
 	}
 }
-
-yearUntilRetirement({year: 1987, firstName: 'John'});
+ 
+yearUntilRetirement(
+    {BirthYear: 1987, firstName: 'John'}
+    );
 
 //No.2
 const addNumber = (a, b, c, d, e, f, g) => {
