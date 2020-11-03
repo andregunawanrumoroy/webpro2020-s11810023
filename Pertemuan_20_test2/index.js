@@ -1,10 +1,10 @@
 
-// Andre Gunawan || 105011810023
+// Andre Gunawan || 105011810021
 // Test#2
 //===============================================
 
 //Bagian 1. ubalah syntax ES5 berikut kedalam ES6
-//======No.1 
+//No.1 
 const calculateAge = (birthYear)=> {
 	return 2019 - birthYear;
 }
