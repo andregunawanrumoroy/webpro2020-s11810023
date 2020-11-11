@@ -4,6 +4,7 @@ import Hello from "./components/Hello";
 import Content from "./components/Content";
 import Card from "./components/Card";
 import {person} from "./utils/person";
+import Counter from "./components/Counter";
 
 //harus menggunakan Huruf Kapital diawal kata
 function App() {
@@ -25,6 +26,7 @@ function App() {
           }
          )
        }
+       <Counter title="Counter component" />
     </>
   );
 }
