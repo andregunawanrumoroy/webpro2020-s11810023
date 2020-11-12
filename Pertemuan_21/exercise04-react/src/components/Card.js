@@ -1,4 +1,4 @@
-import Card from "react";
+import Card from 'react';
 
 
 //props itu seperti objek
