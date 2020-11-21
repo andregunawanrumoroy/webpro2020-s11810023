@@ -1,6 +1,6 @@
 import React, { Component, useEffect, useState } from "react";
 
-
+//pertemuan 22
 //================ Cara pertama ====================
 /*class Counter extends Component {
     constructor() {
